@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+}
+.loc img{
+    margin-left: 700px;
+    margin-top: 20px;
+    width: 14px;
+}
+.loc p{
+    margin-top: -20px;
+    margin-left: 725px;
+    color: #454343;
+}
+.loc button{
+    float: right;
+    margin-right: 710px;
+    padding-top: 2px;
+    margin-top: -40px;
+    width: 100px;
+    height: 31px;
+    font-size: 11px;
+    color: white;
+    background-color: rgb(39 39 39);
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+}
+
+
+
+
+.navbar img{
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.navbar p{
+    margin-top: -25px;
+    margin-left: 250px;
+    font-weight: bold;
+}
+.navbar h6{
+    float: right;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: -40px;
+    margin-right: 180px;
+}
+
+
+
+
+.order{
+    display: flex;
+    background: #202124;
+    height: 68px;
+    margin-top: -20px;
+}
+.headBottomParent{
+    display: flex;
+    margin: .5% auto;
+    align-items: center;
+}
+.headBottomTXT{
+    font-family: impact;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    color: #fff;
+    margin: auto 15px auto auto;
+}
+.btn{
+    border: none;
+    background-color: #e4002b;
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    border-radius: 32px;
+    font-size: 14px;
+}
+
+
+
+
+
+.browse{
+    margin-left: 230px;
+    font-family: impact;
+    font-weight: 100;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: 1px;
+    color: #202124;
+    margin-top: 100px;
+    margin-bottom: 55px;
+}
+.horizontal-line{
+    border-top: 1px solid #e3e3e3;
+    flex: 1 1;
+    margin-top: -78px;
+    width: 1160px;
+    margin-left: 560px;
+}
+
+
+
+
+
+
+
+
+
+
+.menu-card{
+    width: 17.8vw;
+    height: 17.8vw;
+    margin: 1%;
+    display: inline-grid;
+    background: #f8f7f5;
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.menu-text{
+    text-align: center;
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #202124;
+    bottom: 7%;
+
+}
