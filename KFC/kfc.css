@@ -50,11 +50,15 @@ body{
 
 
 
+
+
+
 .order{
     display: flex;
     background: #202124;
     height: 68px;
     margin-top: -20px;
+    width: 100%;
 }
 .headBottomParent{
     display: flex;
@@ -112,27 +116,350 @@ body{
 
 
 
-.menu-card{
-    width: 17.8vw;
-    height: 17.8vw;
-    margin: 1%;
-    display: inline-grid;
-    background: #f8f7f5;
-    position: relative;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
+
+
+
+.row{
+    display: flex;
 }
-.menu-text{
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s;
+    background-color: #f3f3f3;
+    width: 350px;
+    margin-left: 35px;
+    margin-top: 100px;
+}
+
+.card img{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 350px;
+    
+}
+.card h3{
     text-align: center;
-    font-family: "National 2 Condensed";
+    font-family: impact;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: .5px;
     text-transform: uppercase;
     color: #202124;
-    bottom: 7%;
+    margin-top: 35px;
+    padding-bottom: 15px;
+}
+.card-active{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s;
+    background-color: #f3f3f3;
+    width: 350px;
+    margin-left: 230px;
+    margin-top: 100px;
+}
+.card-active img{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 350px;
+    
+}
+.card-active h3{
+    text-align: center;
+    font-family: impact;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-top: 35px;
+    padding-bottom: 15px;
+}
+.card-last{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s;
+    background-color: #f3f3f3;
+    width: 350px;
+    margin-left: 35px;
+    margin-top: 100px;
+}
+.card-last img{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 350px;
+    height: 250px;
+}
+.card-bodyy{
+    text-align: center;
+    display: flex;
+    margin-left: 100px;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+
+
+
+.offer{
+    width: 100%;
+    height: 750px;
+    background-color: #202124;
+    margin-top: 110px;
+}
+
+.icon{
+    width: 15px;
+    height: 45px;
+    background-color: rgb(228, 0, 43);
+    margin-left: 235px;
+}
+.icon-1{
+    width: 15px;
+    height: 45px;
+    background-color: rgb(228, 0, 43);
+    margin-left: 268px;
+    margin-top: -45px;
+}
+.icon-2{
+    width: 15px;
+    height: 45px;
+    background-color: rgb(228, 0, 43);
+    margin-left: 300px;
+    margin-top: -45px;
+}
+
+.offerHeader h2{
+    font-family: impact;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 100;
+    color: white;
+    margin-left: 235px;
+    margin-top: 55px;
+}
+
+.offerHeader h3{
+    color: white;
+    margin-top: -60px;
+    margin-left: 100pc;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+
+.header{
+    display: flex;
+}
+.box{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s;
+    background-color: #f3f3f3;
+    width: 350px;
+    margin-left: 35px;
+    margin-top: 50px;
+    height: 440px;
+    border-radius: 10px;
+}
+.box img{
+    
+    width: 350px;
+    border-radius: 5px;
+}
+.box h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: impact;
+    font-weight: 100;
+    color: #d11919;
+    margin-top: 6px;
+    word-spacing: 5px;
+}
+.box p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: -30px;
+    color: #3e3939;
+}
+.box a{
+    color: #4b4a4a;
+    margin-left: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.btn-2{
+    float: right;
+    margin-right: 30px;
+    padding-top: 1px;
+    margin-top: -20px;
+    background-color: white;
+    color: #393737;
+    border: 0.5px solid #151414;
+    font-weight: 600;
+    border-color: #4f4848;
+    width: 150px;
+    height: 45px;
+    border-radius: 39px;
+}
+
+
+.box-active{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s;
+    background-color: #f3f3f3;
+    width: 350px;
+    margin-left: 210px;
+    margin-top: 50px;
+    height: 440px;
+    border-radius: 10px;
+}
+.box-active img{
+    
+    width: 350px;
+    border-radius: 5px;
+}
+.box-active h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: impact;
+    font-weight: 100;
+    color: #d11919;
+    margin-top: 6px;
+    word-spacing: 5px;
+}
+.box-active p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: -30px;
+    color: #3e3939;
+}
+.box-active a{
+    color: #4b4a4a;
+    margin-left: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.btn-1{
+    float: right;
+    margin-right: 30px;
+    padding-top: 1px;
+    margin-top: -20px;
+    background-color: white;
+    color: #393737;
+    border: 0.5px solid #151414;
+    font-weight: 600;
+    border-color: #4f4848;
+    width: 150px;
+    height: 45px;
+    border-radius: 39px;
+}
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 700px;
+    background-color: #202124;
+}
+.footer img{
+    margin-top: 290px;
+    margin-left: 180px;
+}
+
+.india p{
+    
+    margin-left: 410px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
 
 }
+.india{
+    margin-top: -80px;
+}
+.legal{
+    margin-top: -165px;
+}
+.legal p{
+    color: white;
+    margin-left: 620px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.food{
+    margin-top: -140px;
+}
+.food p{
+    color: white;
+    margin-left: 810px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.support{
+    color: white;
+    margin-left: 990px;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: -140px;
+}
+
+
+
+.apple{
+    display: flex;
+}
+
+.social{
+    display: flex;
+    margin-top: -325px;
+    margin-left: 1370px;
+}
+.insta{
+    
+    margin-right: -165px;
+
+}
+.fb{
+    margin-right: -165px;
+}
+.twitter{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
